@@ -4,7 +4,7 @@ hero:
   desc: 一套高质量可靠的 React Hooks 库,参考ahooks
   actions:
     - text: Getting Started
-      link: /components
+      link: /hooks
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 

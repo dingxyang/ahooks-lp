@@ -1,13 +1,21 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "ES5",
     "moduleResolution": "node",
     "jsx": "react",
     "esModuleInterop": true,
-    "types": ["jest"],
-    "strict": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "anya-hooks": ["./packages/hooks/src/index.ts"],
+      "anya-hooks/lib/*": ["./packages/hooks/src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "declaration": true
-  }
+    "declaration": false,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules", "lib", "es", "dist", "example"]
 }
