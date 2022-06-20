@@ -1,9 +1,7 @@
 /**
- * title: Custom shouldUpdate function
- * desc: Previous value update only when the shouldUpdate function return true.
+ * title: 自定义 shouldUpdate 函数
+ * desc: 只有 shouldUpdate function 返回 true 时，才会记录值的变化。
  *
- * title.zh-CN: 自定义 shouldUpdate 函数
- * desc.zh-CN: 只有 shouldUpdate function 返回 true 时，才会记录值的变化。
  */
 
 import { usePrevious } from 'anya-hooks';

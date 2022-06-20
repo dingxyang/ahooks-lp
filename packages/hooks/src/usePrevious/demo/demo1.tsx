@@ -1,9 +1,7 @@
 /**
- * title: Basic usage
- * desc: Record the previous value.
+ * title: 基础用法
+ * desc: 记录上次的 count 值
  *
- * title.zh-CN: 基础用法
- * desc.zh-CN: 记录上次的 count 值
  */
 
 import { usePrevious } from 'anya-hooks';
