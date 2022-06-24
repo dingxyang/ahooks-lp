@@ -1,10 +1,9 @@
 /**
  * title: 基础用法
  * desc: unmountedRef.current 代表组件是否已经卸载
- *
  */
 
-import { message } from 'antd';
+import { Button, message } from 'antd';
 import { useBoolean, useUnmountedRef } from 'anya-hooks';
 import React, { useEffect } from 'react';
 
@@ -26,9 +25,7 @@ export default () => {
 
   return (
     <>
-      <button type="button" onClick={toggle}>
-        {state ? 'unmount' : 'mount'}
-      </button>
+      <Button onClick={toggle}>{state ? 'unmount' : 'mount'}</Button>
       {state && <MyComponent />}
     </>
   );

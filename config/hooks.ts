@@ -1,7 +1,7 @@
 export const menus = [
   {
     title: 'LifeCycle',
-    children: ['useUnmountedRef'],
+    children: ['useUnmount', 'useUnmountedRef'],
   },
   {
     title: 'State',

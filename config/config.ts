@@ -6,6 +6,17 @@ export default {
     type: 'none',
     exclude: [],
   },
+  extraBabelPlugins: [
+    [
+      'babel-plugin-import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: true,
+      },
+      'antd',
+    ],
+  ],
   title: 'react-hooks',
   mode: 'site',
   logo: '/logo.svg',
