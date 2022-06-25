@@ -5,6 +5,6 @@ export const menus = [
   },
   {
     title: 'State',
-    children: ['useBoolean', 'useToggle', 'usePrevious'],
+    children: ['useBoolean', 'useToggle', 'usePrevious', 'useUpdate'],
   },
 ];
