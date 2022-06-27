@@ -5,6 +5,18 @@ export const menus = [
   },
   {
     title: 'State',
-    children: ['useBoolean', 'useToggle', 'usePrevious', 'useUpdate'],
+    children: ['useBoolean', 'useToggle', 'usePrevious', 'useUpdate', 'useDebounce', 'useThrottle'],
+  },
+  {
+    title: 'Effect',
+    children: ['useUpdateEffect'],
+  },
+  {
+    title: 'Dom',
+    children: ['useTitle'],
+  },
+  {
+    title: 'Advanced',
+    children: ['useLatest', 'useMemoizedFn'],
   },
 ];
